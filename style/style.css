@@ -71,12 +71,22 @@
 }
 
 /* Nav */
+nav{
+    position: fixed;
+    top: 0;
+    left: 50px;
+    width: 100%;
+    height: 300px;
+    background-color: purple;
+    z-index: 1;
+}
 
 nav ul li{
-    position: fixed;
-    color: white;
-    font-size: 30px;
-    z-index: 1;
     display: inline-block;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
 }
 
